@@ -7,10 +7,7 @@
   <properties resource="db.properties"/>
   
   <typeAliases>
-  
-  	<package name="com.xxx.domain"/>
-  	
-  
+  	<package name="com.home.crm.settings.domain"/>
   </typeAliases>
   
   <environments default="development">
@@ -27,9 +24,7 @@
   
  
   <mappers>
-   
       <package name="com.home.crm.settings.dao"/>
-    
   </mappers>
 </configuration>
 
